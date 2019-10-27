@@ -1,6 +1,3 @@
-# ExUnit.start()
-# ExUnit.configure(trace: true)
-
 defmodule RomanTest do
   use ExUnit.Case
 
@@ -36,7 +33,6 @@ defmodule RomanTest do
     assert Roman.numerals(27) == "XXVII"
   end
 
-  #
   test "48" do
     assert Roman.numerals(48) == "XLVIII"
   end
@@ -49,7 +45,6 @@ defmodule RomanTest do
     assert Roman.numerals(93) == "XCIII"
   end
 
-  #
   test "141" do
     assert Roman.numerals(141) == "CXLI"
   end
